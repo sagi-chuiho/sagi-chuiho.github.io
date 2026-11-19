@@ -449,3 +449,11 @@ nav.tabs{flex-wrap:wrap;overflow:visible}
 
 .tfaimg{margin:14px auto}
 .tfaimg img{display:block;width:100%;max-width:440px;height:auto;margin-inline:auto}
+
+/* 広告（「広告」表示つき） */
+.adlbl{display:block;font-size:11px;color:var(--muted);margin-bottom:4px}
+.adbar{text-align:center;padding-top:8px;padding-bottom:20px}
+.adbar img,.adart img{max-width:100%;height:auto}
+.adbar .adsp{display:none}
+@media (max-width:800px){.adbar .adpc{display:none}.adbar .adsp{display:block}}
+.adart{text-align:center;margin:24px 0 8px}
