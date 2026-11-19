@@ -446,3 +446,6 @@ nav.tabs{flex-wrap:wrap;overflow:visible}
 .sync figcaption b{display:block;font-size:15px;color:var(--ink)}
 .sync.ok figcaption b{color:#2E8B57}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .sync.ok svg{stroke:#5CC08A}:root:not([data-theme="light"]) .sync.ok figcaption b{color:#5CC08A}}
+
+.tfaimg{margin:14px auto}
+.tfaimg img{display:block;width:100%;max-width:440px;height:auto;margin-inline:auto}
