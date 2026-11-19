@@ -1,0 +1,11 @@
+このフォルダの読み取りエンジンは、次のオープンソースソフトウェアをそのまま使っています。
+
+- tesseract.js / tesseract.js-core（Apache License 2.0）
+  https://github.com/naptha/tesseract.js
+  https://github.com/naptha/tesseract.js-core
+- Tesseract OCR（Apache License 2.0）
+  https://github.com/tesseract-ocr/tesseract
+- 日本語データ @tesseract.js-data/jpn（MIT License、元データは tesseract-ocr/tessdata：Apache License 2.0）
+  https://github.com/naptha/tessdata
+
+Apache License 2.0：https://www.apache.org/licenses/LICENSE-2.0
