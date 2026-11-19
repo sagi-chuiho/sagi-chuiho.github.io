@@ -402,3 +402,38 @@ nav.tabs{flex-wrap:wrap;overflow:visible}
 .catintro{background:var(--navy-soft);border-color:transparent;box-shadow:none;margin-top:22px;scroll-margin-top:12px}
 .catintro .mh{border-top:0;margin:0 0 6px;padding-top:0;font-size:20px;color:var(--navy)}
 .catintro p{color:var(--ink)}
+/* 2段階認証のページ：項目ごとに見出しを色分け */
+.tfa{display:grid;gap:14px;margin-top:14px}
+.tfa section{scroll-margin-top:12px}
+.tfa h2{font-size:18px;color:var(--navy);background:var(--navy-soft);border-left:5px solid var(--coral);border-radius:0 10px 10px 0;padding:8px 12px;margin:0 0 12px;line-height:1.5}
+.tfa ol,.tfa ul{padding-left:1.4em}.tfa li{margin:6px 0}
+.tfa .tablewrap{overflow-x:auto}
+.tfa table.duo{border-collapse:collapse;width:100%;font-size:14px}
+.tfa table.duo th,.tfa table.duo td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.tfa table.duo thead th{background:var(--navy-soft)}
+.tfa table.duo tbody th{white-space:nowrap}
+.tfa .srcs{font-size:13px}
+/* 認証アプリの画面の見本 */
+.tfademo{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:16px 0 4px}
+.tphone{margin:0}
+.tscreen{position:relative;border:1.5px solid var(--line);border-radius:24px;background:var(--surface);padding:22px 14px 16px;min-height:290px}
+.tscreen::before{content:"";position:absolute;top:9px;left:50%;width:54px;height:5px;margin-left:-27px;border-radius:3px;background:var(--line)}
+.tscreen p{margin:0}
+.thead{font-size:12px;color:var(--muted);padding-bottom:10px;border-bottom:1px solid var(--line);margin-bottom:12px!important}
+.ttitle{font-weight:700;margin-bottom:12px!important}
+.tqr{width:112px;height:112px;margin:6px auto 14px;border:1px solid var(--line);border-radius:8px;background:
+ linear-gradient(var(--ink),var(--ink)) 10px 10px/26px 26px no-repeat,linear-gradient(var(--ink),var(--ink)) 76px 10px/26px 26px no-repeat,linear-gradient(var(--ink),var(--ink)) 10px 76px/26px 26px no-repeat,
+ repeating-linear-gradient(90deg,var(--ink) 0 8px,transparent 8px 14px) 44px 44px/58px 8px no-repeat,repeating-linear-gradient(90deg,transparent 0 6px,var(--ink) 6px 14px) 44px 58px/58px 8px no-repeat,repeating-linear-gradient(90deg,var(--ink) 0 8px,transparent 8px 20px) 44px 72px/58px 8px no-repeat,repeating-linear-gradient(90deg,transparent 0 10px,var(--ink) 10px 18px) 44px 88px/58px 8px no-repeat,repeating-linear-gradient(0deg,var(--ink) 0 8px,transparent 8px 14px) 48px 10px/8px 26px no-repeat}
+.tnote{font-size:12px;color:var(--muted);text-align:center}
+.trow{padding:6px 0 10px;border-bottom:1px solid var(--line)}
+.trow small{font-size:12px;color:var(--muted)}
+.tcode{display:flex;align-items:center;justify-content:space-between}
+.tnum{font-family:var(--f-mono,monospace);font-size:28px;font-weight:700;letter-spacing:1px;color:var(--navy)}
+.tnum.tsub{font-size:22px;font-weight:400;color:var(--muted)}
+.tpie{width:24px;height:24px}.tpie-bg{fill:var(--navy-soft)}.tpie-fg{fill:var(--navy)}
+.tplus{position:absolute;right:16px;bottom:16px;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--navy-soft);color:var(--navy);font-size:22px;border:1.5px solid var(--navy)}
+.tinput{border:1.5px solid var(--line);border-radius:10px;padding:8px 12px;font-family:var(--f-mono,monospace);font-size:20px;letter-spacing:2px}
+.tbtn{margin-top:12px;text-align:center;padding:8px;border-radius:10px;background:var(--navy-soft);border:1.5px solid var(--navy);color:var(--navy);font-weight:700}
+.twarn{margin-top:18px!important;font-size:12px;color:var(--coral);line-height:1.7}
+.tphone figcaption{text-align:center;margin-top:8px;font-size:13px;color:var(--muted)}
+.tphone figcaption b{display:block;color:var(--ink);font-size:14px}
