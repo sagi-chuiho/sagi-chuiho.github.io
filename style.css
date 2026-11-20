@@ -465,3 +465,4 @@ nav.tabs{flex-wrap:wrap;overflow:visible}
 .colbook{display:inline-block;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px 6px 2px;margin:4px 0 8px;max-width:100%}
 .colbook .adlbl{margin:0 0 0 10px}
 .colbook table{max-width:100%}
+.colbook+.colbook{margin-left:8px}
