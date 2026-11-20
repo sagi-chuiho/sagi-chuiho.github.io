@@ -466,3 +466,5 @@ nav.tabs{flex-wrap:wrap;overflow:visible}
 .colbook .adlbl{margin:0 0 0 10px}
 .colbook table{width:100%!important;max-width:100%}
 
+dl.terms .panel[id]{scroll-margin-top:12px}
+dl.terms .panel:target{outline:2px solid var(--coral,#E8826A);outline-offset:2px}
