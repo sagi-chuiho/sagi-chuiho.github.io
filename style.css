@@ -452,8 +452,13 @@ nav.tabs{flex-wrap:wrap;overflow:visible}
 
 /* 広告（「広告」表示つき） */
 .adlbl{display:block;font-size:11px;color:var(--muted);margin-bottom:4px}
-.adbar{text-align:center;padding-top:8px;padding-bottom:20px}
-.adbar img,.adart img{max-width:100%;height:auto}
+.adv img{max-width:100%;height:auto}
+.adbar{text-align:center;padding-top:4px;padding-bottom:20px}
+.adbar .adpc{font-size:14px}
+.adbar .adpc .adlbl{display:inline;margin:0 8px 0 0}
+.adbar .adpc .adv{display:inline}
 .adbar .adsp{display:none}
 @media (max-width:800px){.adbar .adpc{display:none}.adbar .adsp{display:block}}
 .adart{text-align:center;margin:24px 0 8px}
+.sad{align-items:center}
+.sad .adlbl{align-self:flex-start;margin:0}
