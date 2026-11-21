@@ -468,3 +468,15 @@ nav.tabs{flex-wrap:wrap;overflow:visible}
 
 dl.terms .panel[id]{scroll-margin-top:12px}
 dl.terms .panel:target{outline:2px solid var(--coral,#E8826A);outline-offset:2px}
+/* 偽SMSの実例：SMSアプリの受信吹き出し風 */
+.smsthread{list-style:none;margin:0;padding:14px 12px;border-radius:16px;background:#F2F2F7;display:flex;flex-direction:column;gap:14px}
+.smsmsg{display:flex;flex-direction:column;gap:5px}
+.smsmsg time{font-size:12px;color:#8E8E93;text-align:center}
+.smsmsg time a{color:inherit;text-decoration:underline}
+.smsmsg .bub{margin:0;max-width:85%;align-self:flex-start;background:#E5E5EA;color:#000;border-radius:18px 18px 18px 5px;padding:9px 14px;font-size:15px;line-height:1.6;overflow-wrap:anywhere;white-space:pre-wrap}
+.smsurl{color:#C62828;text-decoration:underline dotted}
+.smschips{flex-wrap:wrap;overflow:visible}
+.smschips .chip small{margin-left:6px;color:var(--muted);font-size:12px}
+details.more .smsthread{margin-top:10px}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .smsthread{background:#000}:root:not([data-theme="light"]) .smsmsg .bub{background:#262628;color:#fff}:root:not([data-theme="light"]) .smsurl{color:#FF8A80}}
+:root[data-theme="dark"] .smsthread{background:#000}:root[data-theme="dark"] .smsmsg .bub{background:#262628;color:#fff}:root[data-theme="dark"] .smsurl{color:#FF8A80}
