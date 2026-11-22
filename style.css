@@ -503,3 +503,11 @@ dl.terms .panel:target{outline:2px solid var(--coral,#E8826A);outline-offset:2px
 details.more .smsthread{margin-top:10px}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .smsthread{background:#000}:root:not([data-theme="light"]) .smsmsg .bub{background:#262628;color:#fff}:root:not([data-theme="light"]) .smsurl{color:#FF8A80}}
 :root[data-theme="dark"] .smsthread{background:#000}:root[data-theme="dark"] .smsmsg .bub{background:#262628;color:#fff}:root[data-theme="dark"] .smsurl{color:#FF8A80}
+
+/* 「引っかかったら」：上のジャンプと、窓口コーナーの区切り */
+.jump{margin:.2rem 0 1rem}
+.jump a{display:inline-block;padding:8px 14px;border-radius:999px;background:var(--navy-soft);color:var(--navy);font-weight:700;text-decoration:none;font-size:15px}
+.cornerbreak{height:0;border-top:2px dashed var(--line);margin:2.2rem 0 1.6rem}
+.panel.corner{background:var(--navy-soft);border-color:transparent;scroll-margin-top:12px}
+.panel.corner .lead{margin:0 0 4px;font-size:15px;color:var(--muted)}
+.panel.corner .contact .go,.panel.corner .contact .golist a{background:var(--surface)}
