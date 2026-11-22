@@ -334,11 +334,14 @@ nav.tabs a{word-break:keep-all}
 /* 新着の一覧のページ送り */
 a.chip{text-decoration:none;display:inline-flex;align-items:center}
 a.chip[aria-current="page"]{background:var(--navy);border-color:var(--navy);color:var(--surface);font-weight:700}
-.pager{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:6px 0;font-size:14px}
-.pager .nums{display:flex;flex-wrap:wrap;gap:4px;justify-content:center}
-.pager .nums a{min-width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:10px;background:var(--surface);text-decoration:none;color:var(--ink)}
-.pager .nums a[aria-current="page"]{background:var(--navy);color:#fff;border-color:var(--navy);font-weight:700}
-.pager .pv,.pager .nx{min-width:5em;font-weight:700}
+.pager{display:flex;align-items:center;justify-content:space-between;gap:4px;margin:6px 0;font-size:14px}
+.pager .nums{display:flex;align-items:baseline;gap:2px;justify-content:center;white-space:nowrap}
+.pager .nums a,.pager .nums [aria-current]{min-width:1.9em;padding:4px 2px;text-align:center;color:var(--ink);font-size:15px}
+.pager .nums a{text-decoration:none;color:var(--muted)}
+.pager .nums [aria-current]{font-weight:700;color:var(--navy);border-bottom:2.5px solid var(--navy)}
+.pager .nums .gap{color:var(--muted);padding:0 2px}
+.pager .nums small{margin-left:6px;color:var(--muted);font-size:12px}
+.pager .pv,.pager .nx{min-width:3.6em;font-weight:700;white-space:nowrap}
 .pager .nx{text-align:right}
 /* コラムの挿絵はパソコンで大きくなりすぎないように */
 .column figure img{max-width:520px;margin-inline:auto}
