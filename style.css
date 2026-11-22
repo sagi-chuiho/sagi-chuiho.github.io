@@ -140,8 +140,23 @@ details.card[open] .caret{transform:rotate(180deg)}
 .past li:first-child{border-top:0}
 .past time{color:var(--muted);font-variant-numeric:tabular-nums;flex:none}
 .draft{background:var(--amber-soft);color:var(--amber);border-radius:10px;padding:8px 12px;font-size:13px;font-weight:700}
-.contact{display:flex;flex-direction:column;gap:2px}
+.contact{display:flex;flex-direction:column;gap:8px;padding:16px 0;border-top:1px solid var(--line);font-size:16px;line-height:1.7}
+.contact:first-of-type{border-top:0;padding-top:4px}
+.contact>b{font-size:18px}
+.contact p{margin:0}
 .contact small{color:var(--muted)}
+.contact .call{display:flex;flex-wrap:wrap;align-items:center;gap:4px 14px}
+.contact .call .tel{font-size:24px}
+.contact .call>span:last-child{font-size:14px;color:var(--muted);line-height:1.5}
+.contact .pts{margin:0;padding-left:1.3em}
+.contact .pts li{margin:2px 0}
+.contact .mails{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:0;align-items:baseline}
+.contact .mails dt{font-weight:700}
+.contact .mails dd{margin:0;overflow-wrap:anywhere}
+.contact .note{font-size:14px;color:var(--muted)}
+.contact .go,.contact .golist a{align-self:flex-start;display:inline-flex;align-items:center;gap:4px;padding:9px 14px;border:1.5px solid var(--line);border-radius:10px;text-decoration:none;font-size:15px;font-weight:700}
+.contact .go::after,.contact .golist a::after{content:"›";font-size:18px;line-height:1}
+.contact .golist{display:flex;flex-wrap:wrap;gap:8px}
 .crumb{font-size:13px}
 footer .links{display:flex;flex-wrap:wrap;gap:4px 14px}
 .subjlist li{flex-direction:column;gap:2px}
