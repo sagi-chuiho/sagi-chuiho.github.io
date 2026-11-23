@@ -511,3 +511,9 @@ details.more .smsthread{margin-top:10px}
 .panel.corner{background:var(--navy-soft);border-color:transparent;scroll-margin-top:12px}
 .panel.corner .lead{margin:0 0 4px;font-size:15px;color:var(--muted)}
 .panel.corner .contact .go,.panel.corner .contact .golist a{background:var(--surface)}
+
+/* 新着「情報漏えい」の掲載基準 */
+details.crit{margin:4px 0 12px;padding:10px 14px;border:1px solid var(--line);border-radius:12px;font-size:15px;line-height:1.7}
+details.crit summary{cursor:pointer;font-weight:700;color:var(--navy)}
+details.crit ul{margin:6px 0;padding-left:1.3em}
+details.crit p{margin:6px 0}
